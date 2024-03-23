@@ -19,11 +19,3 @@ document.addEventListener('DOMContentLoaded', () => {
 homeBtn.addEventListener("click", () => loadPage(homeImg, "This is home"));
 menuBtn.addEventListener("click", () => loadPage(menuImg, "This is menu"));
 aboutBtn.addEventListener("click", () => loadPage(aboutImg, "This is about"));
-
-
-
-
-
-
-
-loadPage();
