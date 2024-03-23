@@ -4,9 +4,9 @@ import { loadPage } from './loadPage';
 import setMenu from './Menu';
 import setHome from './home';
 import setAbout from './about';
-import menuImg from './menuImg.jpg';
-import homeImg from './homeImg.jpg';
-import aboutImg from './aboutImg.jpg';
+import menuImg from 'Users/lucas/Restaurant-Page-Odin/src/menuImg.jpg';
+import homeImg from 'Users/lucas/Restaurant-Page-Odin/src/homeImg.jpg';
+import aboutImg from 'Users/lucas/Restaurant-Page-Odin/src/aboutImg.jpg';
 
 console.log("testing webpack again");
 const homeBtn = setHome();
