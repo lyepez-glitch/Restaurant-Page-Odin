@@ -16,4 +16,15 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
+    module: {
+        rules: [{
+                'test': /\.(jpg)$/i,
+                'type': 'asset/resource',
+            },
+            {
+                'test': /\.css$/i,
+                'use': ['style-loader', 'css-loader'],
+            }
+        ]
+    }
 }
